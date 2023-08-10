@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Page.Title }}</title>
+
+    <link rel="icon" href="{{ .Site.BaseURL }}favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}style.css">
+    <script defer src="{{ .Site.BaseURL }}actions.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1></h1>
+    </header>
+    
+    <main>
+        <div class="info">
+            <h2>
+                There's nothing yet.
+            </h2>
+            <p>
+                Hello. Glad you're take a moment for stopping by!
+                There's nothing to see.
+                In the nearest future, though, it'd be really interesting.
+            </p>
+        </div>
+
+        {{ block "main" . }}
+
+        {{ end }}
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
