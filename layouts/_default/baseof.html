@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" itemscope itemtype="https://schema.org/WebPage">
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,8 +39,10 @@
 <body itemtype="WebPage">
 
     <header>
-        <a href="{{ .Site.BaseURL }}" class="header__name">Vladislav Shubin</a>
-
+        <div class="logo">
+            <img src="{{ .Site.BaseURL }}svgs/logo.svg">
+            <a href="{{ .Site.BaseURL }}" class="header__name">Vladislav Shubin</a>
+        </div>
         <div class="nav__bar">
             <ul class="nav__list">
                 <li class="nav__item"><a id="materials__link" href="{{ .Site.BaseURL }}materials" class="nav__link">Materials</a></li>
