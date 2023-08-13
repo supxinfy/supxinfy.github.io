@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+<link rel="stylesheet" href="./materials.css">
+
+<div class="materials__list">
+    <h2> Posts </h2>
+    {{ range .RegularPages }}
+            <div class="post" onclick="location.href='{{ .Permalink }}';" style="cursor: pointer;">
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+                <p>{{.Content | truncate 250 }}</p>
+                <hr>
+                <p>{{.Date | time.Format ":date_long"}} {{.Date | time.Format ":time_short"}}</p>   
+                <!--<p>теги: {{with .Params.tags }}{{delimit . ", "}}{{end}}</p>-->
+                <!--<p>
+                    теги:
+                    {{ $url := .Site.BaseURL }}
+                    {{range .Params.tags}}
+                            <a href="{{$url}}/tags/{{ . }}">{{ . }}</a>
+                    {{end}}
+                </p>-->
+            </div>
+    {{ end }}
+</div>
+{{ end }}

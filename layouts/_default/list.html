@@ -1,4 +1,27 @@
 {{define "main"}}
 
+<p> Hello, I'm Vladislav Shubin and it's my personal website. </p>
+<p> I'm currently getting a master's degree at the Stockholm University in Sweden.</p>
+<br>
+<p> Feel free to explore the site. If you would like to contact me there're social links pinned below.</p>
+<p> Also, you can send me e-mail via <a href="mailto:v.v.choubine@gmail.com">v.v.choubine@gmail.com</a></p>
+
+<br>
+
+<figure class="main__image">
+	<img src="{{ .Site.BaseURL }}/favicon.png" alt="MacWilliams matrix">
+	<figcaption>
+	Here is some beatiful matrix some prime modulo
+	</figcaption>
+</figure>
+
+<style>
+    .main__image {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: clamp(100px, 50%, 300px);
+    }
+</style>
 
 {{end}}
