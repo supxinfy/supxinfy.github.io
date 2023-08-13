@@ -5,14 +5,12 @@ layout: "about"
 
 # About
 
-I'm Vladislav Shubin, master student in mathematics at Stockholm University.
-Mainly I'm interested in math: number theory and algebra.
+I’m Vladislav Shubin, a master's student in mathematics at Stockholm University. I’m interested in math, mainly number theory and algebra.
 
-Also, I'm an OEIS contributor.
+Also, I’m an [OEIS](https://oeis.org) contributor.
 
-Outside of that, I love with music and music theory.
-Sometime I playing guitar for myself.
+Outside of that, I love music and music theory. Sometimes I play the guitar for myself.
 
-In free time I like watch movies or reading litrature.
+In my free time, I like to watch movies or read literature.
 
-If you interested in movies too, you can check out my [letterboxd](https://letterboxd.com/supxinfy/).
+If you're interested in movies too, you can check out my [letterboxd](https://letterboxd.com/supxinfy/).

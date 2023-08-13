@@ -3,13 +3,13 @@ title: "Career and experience"
 layout: "career"
 ---
 
-This section of the personal website is dedicated to my curriculum vitae.
-Additionaly, you can find a resume {{<link rellink="cv/cv.pdf" caption="here">}}, if you're interested. 
+This section of my personal website is dedicated to my curriculum vitae.
+Additionally, you can find a resume {{<link rellink="cv/cv.pdf" caption="here">}} if you're interested. 
 
 ## Education
 
-- (2023-Present) [Stockholm University](https://www.su.se), master degree in Mathematics.
-- (2019-2023) [Petrozavodsk State University](http://petrsu.ru), bachelor degree in Mathematics.
+- (2023-Present) [Stockholm University](https://www.su.se), master's degree in mathematics.
+- (2019-2023) [Petrozavodsk State University](http://petrsu.ru), bachelor's degree in Mathematics.
 
 <hr>
 
