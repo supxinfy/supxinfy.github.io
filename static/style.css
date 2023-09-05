@@ -69,7 +69,7 @@ header {
 }
 
 .logo img {
-    width: clamp(10px, 50%, 70px);
+    width: clamp(35px, 50%, 70px);
 }
 
 .header__name {
@@ -108,10 +108,12 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: clamp(20px, 50%, 50px);
+
+    overflow-x: hidden;
 }
 
 .page__info {
-    margin-left: 5%;
+    margin-left: -5%;
 }
 
 .page__connections {

@@ -1,7 +1,7 @@
 ---
 title: "Krawtchouck Matrices"
 date: 2023-08-12T19:58:36+03:00
-draft: false
+draft: true
 ---
 
 Hello, it's an article about Krawtchouck Matrices.
