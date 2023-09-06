@@ -11,7 +11,7 @@ Additionally, you can find a resume {{<link rellink="cv/cv.pdf" caption="here">}
 - (2023-Present) [Stockholm University](https://www.su.se), master's degree in mathematics.
 - (2019-2023) [Petrozavodsk State University](http://petrsu.ru), bachelor's degree in Mathematics.
 
-<hr>
+<hr>    
 
 - (2010-2017) Children’s music school №13, Guitar class.
 - (2013-2017) School of Computer Science “Vector++”.
