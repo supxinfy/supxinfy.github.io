@@ -26,7 +26,7 @@
     font-size: 2rem;
 }
 
-#discord, #facebook, #linkedin, #github {
+#github {
     fill: var(--anti-color);
 }
 
@@ -37,6 +37,11 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding: var(--scroll-padding, 5rem);
 }
 
 body {
@@ -59,6 +64,10 @@ header {
     justify-content: space-evenly;
     align-items: center;
     padding: 1rem;
+}
+
+p {
+    margin-bottom: 2%;
 }
 
 .logo {
@@ -101,35 +110,26 @@ header {
 }
 
 footer {
-    height: 30%;
+    height: 18%;
     display: flex;
     background-color: var(--foter-color);
     margin-top: auto;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: clamp(20px, 50%, 50px);
+    padding: clamp(10px, 50%, 20px);
 
     overflow-x: hidden;
-}
-
-.page__info {
-    margin-left: -5%;
-}
-
-.page__connections {
-    margin-right: 5%;
 }
 
 .page__connections ul {
     display: flex;
     list-style: none;
-    margin: 0;
+    margin: 0.2rem;
     padding: 0;
 }
 
-.socials__item {
-    margin-right: 5%;
-    padding: 2%;
+#github-svg {
+    height: 30px;
 }
 
 .main__content {
