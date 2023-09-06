@@ -1,6 +1,6 @@
 ---
 title: "Qr-code"
-layout: "about"
+layout: "single"
 ---
 
 {{<img class="main__image" src="./QR Code.svg" caption="" alt="qr code :(">}}
