@@ -27,12 +27,6 @@ Most of my contributions are involved with the problem of de Koninck. The proble
 
 Briefly, if we have a multiplicative function $rad(n)$, which is equal to the product of distinct prime of integer $n$, then when is it equal to another multiplicative function of $n$?
 
-Outside of that, I love music and music theory. Sometimes I play the guitar for myself.
-
-In my free time, I like to watch movies or read literature.
-
-If you're interested in movies too, you can check out my [letterboxd](https://letterboxd.com/supxinfy/).
-
 You can find my resume {{<link rellink="cv/cv.pdf" caption="here">}}.
 
 Below, you can find some information from the resume.
@@ -42,12 +36,7 @@ Below, you can find some information from the resume.
 - (2023-Present) [Stockholm University](https://www.su.se), master's degree in mathematics.
 - (2019-2023) [Petrozavodsk State University](http://petrsu.ru), bachelor's degree in Mathematics.
 
-<hr>    
-
-- (2010-2017) Children’s music school №13, Guitar class.
-- (2013-2017) School of Computer Science “Vector++”.
-
-## Research stuff
+## Publications
 
 1. Vladislav Shubin. “Investigation of ϕ-radical numbers”. In: *73rd Scientific Conference of Sudents and Young Scientist. Petrozavodsk*, Russia, 2021. 
 
@@ -57,3 +46,6 @@ Below, you can find some information from the resume.
 
 I authored the following OEIS sequences: 
 [A355045](https://oeis.org/A355045), [A355059](https://oeis.org/A355059), [A337775](https://oeis.org/A337775), [A337776](https://oeis.org/A337776).
+
+and also contributed to:
+[A000108](https://oeis.org/A000108)
