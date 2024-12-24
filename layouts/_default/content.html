@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+<link rel="stylesheet" href="./materials.css">
+
+<div class="materials__list">
+    <h2> Posts </h2>
+    {{ range .RegularPages }}
+            <div class="post" onclick="location.href='{{ .Permalink }}';" style="cursor: pointer;">
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+                <p>{{.Content | truncate 250 }}</p>
+                <hr>
+                <p>{{.Date | time.Format ":date_long"}} {{.Date | time.Format ":time_short"}}</p>   
+            </div>
+    {{ end }}
+</div>
+{{ end }}

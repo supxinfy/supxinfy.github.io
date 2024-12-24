@@ -1,0 +1,112 @@
+\documentclass[11pt]{article}
+
+%\usepackage[english]{babel}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\hypersetup{ colorlinks=true }
+
+\usepackage{lipsum}
+\usepackage{hyphenat}
+\usepackage{ragged2e}
+
+\usepackage[a4paper, total={8in, 10in}]{geometry}
+
+\usepackage[defernumbers=true]{biblatex}
+
+\titleformat{\section}[block]{\Large\bfseries\filcenter}{}{1em}{}
+
+\titleformat{\subsection}[block]{\Large\bfseries}{}{}{}[{\titlerule[0.8pt]}]
+
+\author{Vladislav Shubin}
+
+\title{Vladislav Shubin}
+
+\addbibresource{ownbib.bib}
+
+\begin{document}
+
+\section*{Vladislav Shubin}
+
+\begin{center}
+	Email: \href{mailto:v.v.choubine@gmail.com}{v.v.choubine@gmail.com}
+	
+	Personal website: \href{https://supxinfy.github.io}{supxinfy.github.io}
+\end{center}
+
+\subsection*{Education}
+
+\textbf{Stockholm University [\href{https://www.su.se}{website}]}, \textit{Sweden}\hfill(2023--present)
+
+I'm getting my master's degree in Mathematics at the Stockholm University.
+
+\vspace{2mm}
+\noindent\textbf{Petrozavodsk State University [\href{https://petrsu.ru}{website}]}, \textit{Russia}\hfill(2019--2023)
+
+
+I got my bachelor's degree in Mathematics at the Petrozavodsk University.
+
+\vspace{2mm}
+\noindent\textbf{School of Computer Science ``Vector++'' [\href{https://www.vector-plus-plus.ru}{website}]}, \textit{Russia}\hfill(2013--2017)
+
+I got a certificate in C/C++ programming and Linux administration skills. Also, I had expirience making learning materials and worked with libraries SFML, OpenGL, and OpenCV.
+
+\vspace{2mm}
+\noindent\textbf{Summer Project School of Innopolis University [\href{https://team-project.university.innopolis.ru/projectschool2018}{website}]}, \textit{Russia}\hfill(2018) 
+
+I was studying blockchain technology (ETH) at Innopolis University. 
+
+\vspace{2mm}
+\noindent\textbf{Children's music school №13 [\href{http://dmsh13.org.ru}{website}]}, \textit{Russia}\hfill(2010--2017)
+
+I graduated from classical guitar class. 
+\subsection*{Professional Experience}
+
+\vspace{2mm}
+\noindent\textbf{School ``Kventin'' [\href{https://kventinptz.ru}{website}]}, \textit{Russia}\hfill(2020--2023)
+
+I was in teacher position in computer science and mathematics. Moreover, I've kept computer systems sustainable and reliable.
+
+\vspace{2mm}
+\noindent\textbf{Online School ``Start'' [\href{http://schoolprogstart.tilda.ws}{website}]}, \textit{Russia}\hfill(2017--2020)
+
+I was a teacher in online courses on C/C++ programming and Linux administration. 
+
+\vspace{2mm}
+\noindent\textbf{Private Tutor/Entreprenuer in Computer Science}, \textit{Russia}\hfill(2017--2023)
+
+I've been a private tutor in computer science and math for a long time.
+
+%% If you just want everything in one list
+% \printbibliography[heading={none}]
+
+\nocite{*}
+\printbibliography[heading={subbibliography},title={Journal Articles},type=article]
+
+\printbibliography[heading={subbibliography},title={Conference Proceedings},type=inproceedings]
+
+% \printbibliography[heading={subbibliography},title={Books and Chapters},filter={booksandchapters}]
+
+% \printbibliography
+
+\subsubsection*{OEIS contributions}
+I authored the following OEIS sequences:
+
+\noindent\href{https://oeis.org/A355045}{A355045}, \href{https://oeis.org/A355059}{A355059}, \href{https://oeis.org/A337775}{A337775}, \href{https://oeis.org/A337776}{A337776},
+
+\noindent and also contributed to: \href{https://oeis.org/A000108}{A000108}.
+
+
+% \subsection*{Skills}
+% \noindent\textbf{Languages:}
+% 	English (fluent), Russian (native), and Swedish (elementary).
+%
+% \noindent\textbf{Coding:}
+% 	 Python, C/C++, Wolfram Mathematics, SageMath, Git, SQL.
+%
+% \noindent\textbf{Web development:}
+% 	\textsc{Html, css}, JavaScript, Typescript, Node.js, Hugo.
+%
+% \noindent\textbf{Misc:}
+% 	Academic research, teaching, \LaTeX\ typesetting and publishing.
+
+\end{document}

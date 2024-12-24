@@ -1,0 +1,7 @@
+#about__link {
+    color: var(--link-color);
+}
+
+body {
+    background-image: url('../imgs/nature2.jpg');
+}

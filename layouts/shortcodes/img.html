@@ -1,0 +1,11 @@
+{{$class := .Get "class"}}
+{{$src := .Get "src"}}
+{{$alt := .Get "alt"}}
+{{$caption := .Get "caption"}}
+
+<figure class="{{ $class }}">
+	<img src="{{ $src }}" alt="{{ $alt }}">
+	<figcaption>
+	{{ $caption }}
+	</figcaption>
+</figure>
