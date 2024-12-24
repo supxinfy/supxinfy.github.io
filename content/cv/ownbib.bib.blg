@@ -1,5 +1,0 @@
-[0] Config.pm:307> INFO - This is Biber 2.19
-[0] Config.pm:310> INFO - Logfile is 'ownbib.bib.blg'
-[48] biber-darwin:340> INFO - === Tor Maj 30, 2024, 15:26:44
-[171] Utils.pm:410> ERROR - Cannot find 'ownbib.bib.bcf'!
-[172] Biber.pm:136> INFO - ERRORS: 1
