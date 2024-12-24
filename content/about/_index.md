@@ -1,4 +1,4 @@
----
+--
 title: "About Me"
 layout: "about"
 ---
@@ -25,7 +25,7 @@ In addition, I’m a [contributor](#oeis-contributions) to the OEIS (Online Ency
 
 Most of my contributions are involved with the problem of de Koninck. The problem lies mainly in elementary number theory.
 
-Briefly, if we have a multiplicative function $rad(n)$, which is equal to the product of distinct prime of integer $n$, then when is it equal to another multiplicative function of $n$?
+Briefly, if we have a multiplicative function \\(\\mathrm{rad}(n)\\), which is equal to the product of distinct prime of integer \\(n\\), then when is it equal to another multiplicative function of \\(n\\)?
 
 You can find my resume {{<link rellink="cv/cv.pdf" caption="here">}}.
 
