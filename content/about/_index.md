@@ -7,7 +7,7 @@ layout: "about"
 
 I’m Vladislav Shubin, a master's student in mathematics at Stockholm University. I’m interested in math, mainly number theory and algebra.
 
-
+My publications of any kind can be found {{<link rellink="texts" caption="here">}}.
 
 I would like to learn a lot about Langlands program, as I love L-function and modular forms.
 
