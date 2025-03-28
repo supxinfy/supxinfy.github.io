@@ -9,31 +9,22 @@ I’m Vladislav Shubin, a master's student in mathematics at Stockholm Universit
 
 My publications of any kind can be found {{<link rellink="texts" caption="here">}}.
 
-I would like to learn a lot about Langlands program, as I love L-function and modular forms.
+## Interests
 
-Also, I have a bit of an interest in [Krawtchouk polynomials](https://en.wikipedia.org/wiki/Kravchuk_polynomials) and [matrices](https://en.wikipedia.org/wiki/Krawtchouk_matrices). I have some sort of bank of hypotheses and several solved problems there.
-
-
-By the way, enjoy a picture of a Krawtchouk matrix.
+Some time I worked with [N. Gogin](https://www.mathnet.ru/php/person.phtml?option_lang=eng&personid=45587) on Krawtchouk matrices which were used in several interesting applications.
 {{<img caption="Krawtchouk matrix of order 409 modulo 41" alt="Krawtchouk matrix of order 409 modulo 41" class="main__image" src="41.jpg">}}
 
-If you're hooked, there's a [repository](https://github.com/supxinfy/MWViewer) on Github where I'll collect some tools to visualize Krawtchouk matrices.
-
-The [research section](#research-stuff) currently contains some published materials on the subjects mentioned.
+I have two repositories on Github related to this mathematical object: [MWViewer](https://github.com/supxinfy/MWViewer) (which I used on PCA2023), [krview](https://github.com/supxinfy/krview) (small program in Zig I made for fun).
 
 In addition, I’m a [contributor](#oeis-contributions) to the OEIS (Online Encyclopedia of Integer Sequences).
 
-Most of my contributions are involved with the problem of de Koninck. The problem lies mainly in elementary number theory.
-
-Briefly, if we have a multiplicative function \\(\\mathrm{rad}(n)\\), which is equal to the product of distinct prime of integer \\(n\\), then when is it equal to another multiplicative function of \\(n\\)?
+Most of my contributions are involved with the problem of de Koninck. The problem lies mainly in analytical number theory.
 
 You can find my resume {{<link rellink="cv/cv.pdf" caption="here">}}.
 
-Below, you can find some information from the resume.
-
 ## Education
 
-- (2023-Present) [Stockholm University](https://www.su.se), master's degree in mathematics.
+- (2023-Present) [Stockholm University](https://www.su.se) / [KTH Royal Institute of Technology](https://www.kth.se), master's degree in mathematics.
 - (2019-2023) [Petrozavodsk State University](http://petrsu.ru), bachelor's degree in Mathematics.
 
 ## Publications
