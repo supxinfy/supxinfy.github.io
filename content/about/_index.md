@@ -34,6 +34,8 @@ You can find my resume {{<link rellink="cv/cv.pdf" caption="here">}}.
 2. Vladislav Shubin and Nikita Gogin. [“Bernstein Polynomials and MacWilliams transform”](https://pca-pdmi.ru/2023/files/17/Gogin-Shubin-2023.pdf). In: *International Conference Polynomial Computer Algebra* ’2023’ (PCA’2023). Saint-Petersburg, Russia, 2023. 
 
 3. Vladislav Shubin and Nikita Gogin. [“Binomial Coefficients as Functions of their Denominator; Another Primality Criteria for Natural Integers”](https://pca-pdmi.ru/2024/files/48/prime.pdf). In: *International Conference Polynomial Computer Algebra* ’2024’ (PCA’2024). Saint-Petersburg, Russia, 2024. 
+
+4. Vladislav Shubin and Nikita Gogin. [“Prime Power Conjecture for Projective Planes”](https://pca.conf-pdmi.ru/2025/files/63/GoginShubin.pdf). In: *International Conference Polynomial Computer Algebra* ’2025’ (PCA’2025). Saint-Petersburg, Russia, 2025. 
 ### OEIS contributions 
 
 I authored the following OEIS sequences: 
