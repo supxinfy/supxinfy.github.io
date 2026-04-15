@@ -1,0 +1,102 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/jskherman/imprecv/main/cv.typ.schema.json
+
+personal:
+  name: Vladislav Shubin
+  email: v.v.choubine@gmail.com
+  url: https://supxinfy.github.io
+  titles:
+    - Master student
+  location:
+    city: Stockholm
+    country: Sweden
+  profiles:
+    - network: GitHub
+      username: supxinfy
+      url: https://github.com/supxinfy
+
+work:
+
+  - organization: School "Kventin"
+    location: Petrozavodsk, Russia 
+    positions:
+      -position: Teacher
+      startDate: "2021"
+      endDate: "2023"
+
+  - organization: Online School "Start"
+    location: Saint-Petersburg, Russia 
+    positions:
+      -position: Teacher
+      startDate: "2017"
+      endDate: "2020"
+
+  - organization: Self-employed
+    location: Russia 
+    positions:
+      -position: Private Tutor
+      startDate: "2017"
+      endDate: "2023"
+
+education:
+  - institution: Stockholm University / KTH Royal Institute of Technology
+    area: Mathematics
+    studyType: Master
+    startDate: 2023-09-01
+    endDate: "present"
+    location: Stockholm, Sweden
+    courses:
+      - Linear Algebra and Learning from Data
+      - Type theory
+      - Algebraic Geometry
+      - Advanced Real Analysis
+    highlights:
+      - "*Thesis*: \"Berry Phase on Quantum Graphs\", Supervisor: Pavel Kurasov"
+      
+
+  - institution: Petrozavodsk University
+    area: Mathematics
+    studyType: Bachelor
+    startDate: 2019-09-01
+    endDate: 2023-08-31
+    location: Petrozavodsk, Russia
+    honors:
+      - 4.8 / 5.0 GPA
+    courses:
+      - Applicable Statistics
+      - Actuarial Mathematics
+      - Finance Mathematics
+      - Random Processes
+    highlights:
+      - "*Thesis*: ``Bernstein polynomials and MacWilliams transforms'', Supervisor: Nikita D. Gogin "
+      - "*Activities*: I was giving popular lectures for students on various topics"
+
+projects:
+
+  - name: "SFML Course"
+    affiliation: VECTOR++ School of Computer Science
+    startDate: 2017-05-01
+    endDate: 2017-06-01
+    highlights:
+      - Developed a website and materials about installation of SFML library for several IDEs.
+      - Provied support for students about the installation and creating first programs using SFML/C++.
+
+  - name: "Block chain App"
+    affiliation: Innopolis University
+    startDate: 2018-09-01
+    endDate: 2018-09-30
+    highlights:
+      - Created version of ERC721 protocol using Solidity.
+      - Implemented application that interacts with Ethereum blockchain network using Python.
+      
+# skills:
+  
+
+languages:
+  - language: English
+    fluency: B2 speaker
+  - language: Russian
+    fluency: Native speaker
+  - language: Swedish
+    fluency: Basic proficiency
+
+

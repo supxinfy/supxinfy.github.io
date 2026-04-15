@@ -5,20 +5,52 @@ layout: "about"
 
 # About
 
-I’m Vladislav Shubin, a master's student in mathematics at Stockholm University. I’m interested in math, mainly number theory and algebra.
+I am a Master’s student in mathematics at Stockholm University, working in spectral theory and quantum graphs, with a particular interest in the interaction between topology and operator theory.
 
 My publications of any kind can be found {{<link rellink="texts" caption="here">}}.
 
 ## Interests
 
-Some time I worked with [N. Gogin](https://www.mathnet.ru/php/person.phtml?option_lang=eng&personid=45587) on Krawtchouk matrices which were used in several interesting applications.
-{{<img caption="Krawtchouk matrix of order 409 modulo 41" alt="Krawtchouk matrix of order 409 modulo 41" class="main__image" src="41.jpg">}}
+### Quantum Graphs and Topology Change
 
-I have two repositories on Github related to this mathematical object: [MWViewer](https://github.com/supxinfy/MWViewer) (which I used on PCA2023), [krview](https://github.com/supxinfy/krview) (small program in Zig I made for fun).
+As a Master’s student, I worked under the supervision of [Pavel Kurasov](https://staff.math.su.se/kurasov/). The result of this work is my master thesis “Berry's Phase for Quantum Graphs”.
+
+In my Master’s thesis, I studied topology change on a figure-eight metric graph via parameter-dependent vertex conditions. The goal was to understand how changes in connectivity affect spectral properties of the Laplacian.
+
+In particular, we showed that a full cycle of topology change induces a nontrivial Berry phase \\(\pi\\) for real-valued eigenfunctions. This demonstrates a direct link between topology change and geometric phase in quantum graph models.
+
+{{<img caption="Figure-eight graph" alt="Figure-eight graph" class="main__image" src="figure_eight.svg">}}
+
+The model is based on the condition
+\\[
+    i (S_{\theta} - I) \overrightarrow{\psi} = (S_{\theta} + I) \partial \overrightarrow{\psi}. 
+\\]
+
+This induces topology change, illustrated below.
+
+{{<img caption="Topology Change" alt="Topology Change" class="main__image" src="topology_change.svg">}}
+
+As a result, we obtain a Berry phase
+\\[
+    \psi^{(2 \pi)} = e^{i \pi} \psi^{(0)}.
+\\]
+
+This suggests that topology change in quantum graphs has observable geometric effects and may be relevant for models of quantum systems with varying connectivity.
+
+### Coding Theory and Krawtchouk Polynomials
+
+During my Bachelor's studies, I worked under supervision of [Nikita Gogin](https://www.mathnet.ru/php/person.phtml?option_lang=eng&personid=45587) on Krawtchouk matrices which were used in several interesting applications.
+{{<img caption="Krawtchouk matrix of order 321 modulo 32" alt="Krawtchouk matrix of order 321 modulo 32" class="main__image" src="km-o321m23Gogin.png">}}
+
+One of the applications was the derivation of new formulae for Bernstein and Chebyshev polynomials. Also we developed an algorithm for computing Bernstein polynomials.
+
+Also, we studied connections of discrete functions, Krawtchouk polynomials, finite geometries, and primality.
+
+I have two repositories on Github related to this mathematical object: [MWViewer](https://github.com/supxinfy/MWViewer) (which I used on [PCA2023](https://pca-pdmi.ru/2023/)), [krview](https://github.com/supxinfy/krview) (small program in Zig I made for fun).
 
 In addition, I’m a [contributor](#oeis-contributions) to the OEIS (Online Encyclopedia of Integer Sequences).
 
-Most of my contributions are involved with the problem of de Koninck. The problem lies mainly in analytical number theory.
+Most of my contributions are involved with the de Koninck problem which is an unsolved problem in number theory.
 
 You can find my resume {{<link rellink="cv/cv.pdf" caption="here">}}.
 

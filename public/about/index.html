@@ -65,38 +65,73 @@
 
 <div class="about__content">
     <h1 id="about">About</h1>
-<p>I’m Vladislav Shubin, a master&rsquo;s student in mathematics at Stockholm University. I’m interested in math, mainly number theory and algebra.</p>
+<p>I am a Master’s student in mathematics at Stockholm University, working in spectral theory and quantum graphs, with a particular interest in the interaction between topology and operator theory.</p>
 <p>My publications of any kind can be found 
 
 
 <a href="http://localhost:1313/texts">here</a>.</p>
-<p>I would like to learn a lot about Langlands program, as I love L-function and modular forms.</p>
-<p>Also, I have a bit of an interest in <a href="https://en.wikipedia.org/wiki/Kravchuk_polynomials">Krawtchouk polynomials</a> and <a href="https://en.wikipedia.org/wiki/Krawtchouk_matrices">matrices</a>. I have some sort of bank of hypotheses and several solved problems there.</p>
-<p>By the way, enjoy a picture of a Krawtchouk matrix.
+<h2 id="interests">Interests</h2>
+<h3 id="quantum-graphs-and-topology-change">Quantum Graphs and Topology Change</h3>
+<p>As a Master’s student, I worked under the supervision of <a href="https://staff.math.su.se/kurasov/">Pavel Kurasov</a>. The result of this work is my master thesis “Berry&rsquo;s Phase for Quantum Graphs”.</p>
+<p>In my Master’s thesis, I studied topology change on a figure-eight metric graph via parameter-dependent vertex conditions. The goal was to understand how changes in connectivity affect spectral properties of the Laplacian.</p>
+<p>In particular, we showed that a full cycle of topology change induces a nontrivial Berry phase \(\pi\) for real-valued eigenfunctions. This demonstrates a direct link between topology change and geometric phase in quantum graph models.</p>
 
 
 
 
 
 <figure class="main__image">
-	<img src="41.jpg" alt="Krawtchouk matrix of order 409 modulo 41">
+	<img src="figure_eight.svg" alt="Figure-eight graph">
 	<figcaption>
-	Krawtchouk matrix of order 409 modulo 41
+	Figure-eight graph
+	</figcaption>
+</figure>
+<p>The model is based on the condition
+\[
+i (S_{\theta} - I) \overrightarrow{\psi} = (S_{\theta} + I) \partial \overrightarrow{\psi}.
+\]</p>
+<p>This induces topology change, illustrated below.</p>
+
+
+
+
+
+<figure class="main__image">
+	<img src="topology_change.svg" alt="Topology Change">
+	<figcaption>
+	Topology Change
+	</figcaption>
+</figure>
+<p>As a result, we obtain a Berry phase
+\[
+\psi^{(2 \pi)} = e^{i \pi} \psi^{(0)}.
+\]</p>
+<p>This suggests that topology change in quantum graphs has observable geometric effects and may be relevant for models of quantum systems with varying connectivity.</p>
+<h3 id="coding-theory-and-krawtchouk-polynomials">Coding Theory and Krawtchouk Polynomials</h3>
+<p>During my Bachelor&rsquo;s studies, I worked under supervision of <a href="https://www.mathnet.ru/php/person.phtml?option_lang=eng&amp;personid=45587">Nikita Gogin</a> on Krawtchouk matrices which were used in several interesting applications.
+
+
+
+
+
+<figure class="main__image">
+	<img src="km-o321m23Gogin.png" alt="Krawtchouk matrix of order 321 modulo 32">
+	<figcaption>
+	Krawtchouk matrix of order 321 modulo 32
 	</figcaption>
 </figure></p>
-<p>If you&rsquo;re hooked, there&rsquo;s a <a href="https://github.com/supxinfy/MWViewer">repository</a> on Github where I&rsquo;ll collect some tools to visualize Krawtchouk matrices.</p>
-<p>The <a href="#research-stuff">research section</a> currently contains some published materials on the subjects mentioned.</p>
+<p>One of the applications was the derivation of new formulae for Bernstein and Chebyshev polynomials. Also we developed an algorithm for computing Bernstein polynomials.</p>
+<p>Also, we studied connections of discrete functions, Krawtchouk polynomials, finite geometries, and primality.</p>
+<p>I have two repositories on Github related to this mathematical object: <a href="https://github.com/supxinfy/MWViewer">MWViewer</a> (which I used on <a href="https://pca-pdmi.ru/2023/">PCA2023</a>), <a href="https://github.com/supxinfy/krview">krview</a> (small program in Zig I made for fun).</p>
 <p>In addition, I’m a <a href="#oeis-contributions">contributor</a> to the OEIS (Online Encyclopedia of Integer Sequences).</p>
-<p>Most of my contributions are involved with the problem of de Koninck. The problem lies mainly in elementary number theory.</p>
-<p>Briefly, if we have a multiplicative function \(\mathrm{rad}(n)\), which is equal to the product of distinct prime of integer \(n\), then when is it equal to another multiplicative function of \(n\)?</p>
+<p>Most of my contributions are involved with the de Koninck problem which is an unsolved problem in number theory.</p>
 <p>You can find my resume 
 
 
 <a href="http://localhost:1313/cv/cv.pdf">here</a>.</p>
-<p>Below, you can find some information from the resume.</p>
 <h2 id="education">Education</h2>
 <ul>
-<li>(2023-Present) <a href="https://www.su.se">Stockholm University</a>, master&rsquo;s degree in mathematics.</li>
+<li>(2023-Present) <a href="https://www.su.se">Stockholm University</a> / <a href="https://www.kth.se">KTH Royal Institute of Technology</a>, master&rsquo;s degree in mathematics.</li>
 <li>(2019-2023) <a href="http://petrsu.ru">Petrozavodsk State University</a>, bachelor&rsquo;s degree in Mathematics.</li>
 </ul>
 <h2 id="publications">Publications</h2>
@@ -109,6 +144,9 @@
 </li>
 <li>
 <p>Vladislav Shubin and Nikita Gogin. <a href="https://pca-pdmi.ru/2024/files/48/prime.pdf">“Binomial Coefficients as Functions of their Denominator; Another Primality Criteria for Natural Integers”</a>. In: <em>International Conference Polynomial Computer Algebra</em> ’2024’ (PCA’2024). Saint-Petersburg, Russia, 2024.</p>
+</li>
+<li>
+<p>Vladislav Shubin and Nikita Gogin. <a href="https://pca.conf-pdmi.ru/2025/files/63/GoginShubin.pdf">“Prime Power Conjecture for Projective Planes”</a>. In: <em>International Conference Polynomial Computer Algebra</em> ’2025’ (PCA’2025). Saint-Petersburg, Russia, 2025.</p>
 </li>
 </ol>
 <h3 id="oeis-contributions">OEIS contributions</h3>
