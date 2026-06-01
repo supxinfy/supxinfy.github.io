@@ -1,3 +1,3 @@
-Standart Hugo website for personal use.
+Standard Hugo website for personal use.
 
 
