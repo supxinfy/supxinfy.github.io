@@ -64,7 +64,7 @@ You can find my resume {{<link rellink="cv/cv.pdf" caption="here">}}.
 #### Master Thesis: "Berry Phase for Quantum Graphs"
 Text is available {{<link rellink="texts/masters.pdf" caption="here">}}.
 - Supervisor: *Pavel Kurasov*
-*Contributions*:
+#### Contributions:
 - Studied _topology change_ via parameter-dependent vertex conditions.
 - Derived explicit continuous eigenfunction families.
 - Showed that topology change induces _a nontrivial Berry phase $pi$_ for real-valued eigenfunctions.
@@ -73,7 +73,7 @@ Text is available {{<link rellink="texts/masters.pdf" caption="here">}}.
 #### Bachelor Thesis: "Bernstein Polynomials and MacWilliams Transform"
 Text is available {{<link rellink="texts/bachelors.pdf" caption="here">}} (in Russian.)
 - Supervisor: *Nikita Gogin*, *Vladimir Kuznetsov*
-*Contributions*:
+#### Contributions:
 - Studied MacWilliams (Krawtchouk) transform and its applications in approximation theory. 
 - Found new formulae for Bernstein and Chebyshev polynomials.
 - Developed an algorithm for computing Bernstein polynomials.
