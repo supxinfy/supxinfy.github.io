@@ -59,11 +59,31 @@ You can find my resume {{<link rellink="cv/cv.pdf" caption="here">}}.
 - (2023-Present) [Stockholm University](https://www.su.se) / [KTH Royal Institute of Technology](https://www.kth.se), master's degree in mathematics.
 - (2019-2023) [Petrozavodsk State University](http://petrsu.ru), bachelor's degree in Mathematics.
 
+## Thesis
+
+#### Master Thesis: "Berry Phase for Quantum Graphs"
+Text is available {{<link rellink="texts/masters.pdf" caption="here">}}.
+- Supervisor: *Pavel Kurasov*
+*Contributions*:
+- Studied _topology change_ via parameter-dependent vertex conditions.
+- Derived explicit continuous eigenfunction families.
+- Showed that topology change induces _a nontrivial Berry phase $pi$_ for real-valued eigenfunctions.
+- Established a connection between topology change and the structure of operator domains.
+
+#### Bachelor Thesis: "Bernstein Polynomials and MacWilliams Transform"
+Text is available {{<link rellink="texts/bachelors.pdf" caption="here">}} (in Russian.)
+- Supervisor: *Nikita Gogin*, *Vladimir Kuznetsov*
+*Contributions*:
+- Studied MacWilliams (Krawtchouk) transform and its applications in approximation theory. 
+- Found new formulae for Bernstein and Chebyshev polynomials.
+- Developed an algorithm for computing Bernstein polynomials.
+
+
 ## Publications
 
 ### Preprints
 
-1. Pavel Kurasov, Vladislav Shubin, Axel Tibbling. "Berry's phase under topology change". doi: #link("https://doi.org/10.48550/arXiv.2605.10798")
+1. Pavel Kurasov, Vladislav Shubin, Axel Tibbling. "Berry's phase under topology change". doi: (https://doi.org/10.48550/arXiv.2605.10798)[https://doi.org/10.48550/arXiv.2605.10798]
 
 
 ### Conference Publications
@@ -76,7 +96,7 @@ You can find my resume {{<link rellink="cv/cv.pdf" caption="here">}}.
 
 4. Vladislav Shubin and Nikita Gogin. [“Prime Power Conjecture for Projective Planes”](https://pca.conf-pdmi.ru/2025/files/63/GoginShubin.pdf). In: *International Conference Polynomial Computer Algebra* ’2025’ (PCA’2025). Saint-Petersburg, Russia, 2025. 
 
-5. Vladislav Shubin and Ivan Ushakov. #link("https://pca.conf-pdmi.ru/2026/files/53/PCA2026_Abstract.pdf")["MacWilliams Transform with Binomial Weights"]. Polynomial Computer Algebra, 2026.
+5. Vladislav Shubin and Ivan Ushakov. ["MacWilliams Transform with Binomial Weights"](https://pca.conf-pdmi.ru/2026/files/53/PCA2026_Abstract.pdf). Polynomial Computer Algebra, 2026.
 
 ### OEIS contributions 
 
