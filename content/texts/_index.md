@@ -38,7 +38,8 @@ Text is available {{<link rellink="texts/bachelors.pdf" caption="here">}} (in Ru
 
 ### Preprints
 
-1. Pavel Kurasov, Vladislav Shubin, Axel Tibbling. "Berry's phase under topology change". doi: (https://doi.org/10.48550/arXiv.2605.10798)[https://doi.org/10.48550/arXiv.2605.10798]
+1. Pavel Kurasov, Vladislav Shubin, Axel Tibbling. "Berry's phase under topology change". doi: 
+[https://doi.org/10.48550/arXiv.2605.10798](https://doi.org/10.48550/arXiv.2605.10798)
 
 ## Conference Proceedings
 
