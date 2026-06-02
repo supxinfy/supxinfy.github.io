@@ -245,7 +245,7 @@ You can find my resume {{<link rellink="cv/cv.pdf" caption="here">}}.
       </div>
       <div class="thesis-footer">
         {{<link rellink="texts/bachelors.pdf" class="thesis-link" caption="Read thesis (RU)">}}
-        <span class="thesis-year">Petrozavodsk State</span>
+        <span class="thesis-year">Petrozavodsk State University</span>
       </div>
     </div>
 
