@@ -1,4 +1,5 @@
 {{$rellink := .Get "rellink"}}
 {{$caption := .Get "caption"}}
+{{$class := .Get "class"}}
 
-<a href="{{ .Site.BaseURL }}{{ $rellink }}">{{ $caption }}</a>
+<a href="{{ .Site.BaseURL }}{{ $rellink }}" class="{{ $class }}">{{ $caption }}</a>

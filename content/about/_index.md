@@ -164,54 +164,161 @@ Most of my contributions are involved with the de Koninck problem which is an un
 
 You can find my resume {{<link rellink="cv/cv.pdf" caption="here">}}.
 
+-----
+{{< raw_html >}}
+<br>
+{{< /raw_html >}}
+
 ## Education
 
-- (2023-Present) [Stockholm University](https://www.su.se) / [KTH Royal Institute of Technology](https://www.kth.se), master's degree in mathematics.
-- (2019-2023) [Petrozavodsk State University](http://petrsu.ru), bachelor's degree in Mathematics.
+{{< raw_html >}}
+<div class="education-section">
+  <div class="education-item">
+    <div class="education-time">2023–Present</div>
+    <div class="education-details">
+      <h4>Stockholm University / KTH Royal Institute of Technology</h4>
+      <p>Master’s degree in Mathematics</p>
+    </div>
+  </div>
+  <div class="education-item">
+    <div class="education-time">2019–2023</div>
+    <div class="education-details">
+      <h4>Petrozavodsk State University</h4>
+      <p>Bachelor’s degree in Mathematics</p>
+    </div>
+  </div>
+</div>
+{{< /raw_html >}}
 
 ## Thesis
 
-#### Master Thesis: "Berry Phase for Quantum Graphs"
-Text is available {{<link rellink="texts/masters.pdf" caption="here">}}.
-- Supervisor: *Pavel Kurasov*
-#### Contributions:
-- Studied _topology change_ via parameter-dependent vertex conditions.
-- Derived explicit continuous eigenfunction families.
-- Showed that topology change induces _a nontrivial Berry phase $pi$_ for real-valued eigenfunctions.
-- Established a connection between topology change and the structure of operator domains.
+{{< raw_html >}}
+<div class="thesis-section">
+  <div class="thesis-grid">
+    <div class="thesis-card">
+      <div class="thesis-card-accent"></div>
+      <div class="thesis-card-body">
+        <div>
+          <span class="thesis-badge badge-master">Master thesis · 2026</span>
+        </div>
+        <p class="thesis-title">"Berry Phase for Quantum Graphs"</p>
+        <p class="thesis-supervisor">
+          <i class="ti ti-user" aria-hidden="true"></i>
+          Pavel Kurasov
+        </p>
+        <div class="thesis-divider"></div>
+        <div>
+          <p class="contrib-label">Contributions</p>
+          <ul class="contrib-list">
+            <li>Studied <em>topology change</em> via parameter-dependent vertex conditions</li>
+            <li>Derived explicit continuous eigenfunction families</li>
+            <li>Showed topology change induces a nontrivial <em>Berry phase π</em> for real-valued eigenfunctions</li>
+            <li>Established connection between topology change and operator domain structure</li>
+          </ul>
+        </div>
+      </div>
+      <div class="thesis-footer">
+        {{<link rellink="texts/masters.pdf" class="thesis-link" caption="Read thesis">}}
+        <span class="thesis-year">Stockholm University</span>
+      </div>
+    </div>
+    <div class="thesis-card">
+      <div class="thesis-card-accent bachelor"></div>
+      <div class="thesis-card-body">
+        <div>
+          <span class="thesis-badge badge-bachelor">Bachelor thesis · 2023</span>
+        </div>
+        <p class="thesis-title">"Bernstein Polynomials and MacWilliams Transform"</p>
+        <p class="thesis-supervisor">
+          <i class="ti ti-users" aria-hidden="true"></i>
+          Nikita Gogin, Vladimir Kuznetsov
+        </p>
+        <div class="thesis-divider"></div>
+        <div>
+          <p class="contrib-label">Contributions</p>
+          <ul class="contrib-list">
+            <li>Studied <em>MacWilliams (Krawtchouk)</em> transform and applications in approximation theory</li>
+            <li>Found new formulae for <em>Bernstein</em> and <em>Chebyshev</em> polynomials</li>
+            <li>Developed an algorithm for computing Bernstein polynomials</li>
+          </ul>
+        </div>
+      </div>
+      <div class="thesis-footer">
+        {{<link rellink="texts/bachelors.pdf" class="thesis-link" caption="Read thesis (RU)">}}
+        <span class="thesis-year">Petrozavodsk State</span>
+      </div>
+    </div>
 
-#### Bachelor Thesis: "Bernstein Polynomials and MacWilliams Transform"
-Text is available {{<link rellink="texts/bachelors.pdf" caption="here">}} (in Russian.)
-- Supervisor: *Nikita Gogin*, *Vladimir Kuznetsov*
-#### Contributions:
-- Studied MacWilliams (Krawtchouk) transform and its applications in approximation theory. 
-- Found new formulae for Bernstein and Chebyshev polynomials.
-- Developed an algorithm for computing Bernstein polynomials.
-
+  </div>
+</div>
+{{< /raw_html >}}
 
 ## Publications
-
 ### Preprints
 
-1. Pavel Kurasov, Vladislav Shubin, Axel Tibbling. "Berry's phase under topology change". doi: [https://doi.org/10.48550/arXiv.2605.10798](https://doi.org/10.48550/arXiv.2605.10798)
-
+{{< raw_html >}}
+<div class="pub-list">
+  <div class="pub-item">
+    <span class="pub-number">1.</span>
+    <span class="pub-authors">Pavel Kurasov, Vladislav Shubin, Axel Tibbling.</span> 
+    <span class="pub-title">"Berry's phase under topology change"</span>. 
+    <span class="pub-meta">
+      <a class="pub-link" href="https://doi.org/10.48550/arXiv.2605.10798" target="_blank">arXiv:2605.10798</a> • 2026
+    </span>
+  </div>
+</div>
+<br>
+{{< /raw_html >}}
 
 ### Conference Publications
 
-1. Vladislav Shubin. “Investigation of ϕ-radical numbers”. In: *73rd Scientific Conference of Sudents and Young Scientist. Petrozavodsk*, Russia, 2021. 
+{{< raw_html >}}
+<div class="pub-list">
+  <div class="pub-item">
+    <span class="pub-number">1.</span>
+    <span class="pub-authors">Vladislav Shubin and Ivan Ushakov.</span> 
+    <a class="pub-link pub-title" href="https://pca.conf-pdmi.ru/2026/files/53/PCA2026_Abstract.pdf" target="_blank">"MacWilliams Transform with Binomial Weights"</a>. 
+    <span class="pub-venue">Polynomial Computer Algebra</span>, <span class="pub-meta">Saint-Petersburg, Russia • 2026</span>
+  </div>
 
-2. Vladislav Shubin and Nikita Gogin. [“Bernstein Polynomials and MacWilliams transform”](https://pca-pdmi.ru/2023/files/17/Gogin-Shubin-2023.pdf). In: *International Conference Polynomial Computer Algebra* ’2023’ (PCA’2023). Saint-Petersburg, Russia, 2023. 
+  <div class="pub-item">
+    <span class="pub-number">2.</span>
+    <span class="pub-authors">Vladislav Shubin and Nikita Gogin.</span> 
+    <a class="pub-link pub-title" href="https://pca.conf-pdmi.ru/2025/files/63/GoginShubin.pdf" target="_blank">“Prime Power Conjecture for Projective Planes”</a>. 
+    <span class="pub-venue">International Conference Polynomial Computer Algebra ’2025’ (PCA’2025)</span>, <span class="pub-meta">Saint-Petersburg, Russia • 2025</span>
+  </div>
+  
+  <div class="pub-item">
+    <span class="pub-number">3.</span>
+    <span class="pub-authors">Vladislav Shubin and Nikita Gogin.</span> 
+    <a class="pub-link pub-title" href="https://pca-pdmi.ru/2024/files/48/prime.pdf" target="_blank">“Binomial Coefficients as Functions of their Denominator; Another Primality Criteria for Natural Integers”</a>. 
+    <span class="pub-venue">International Conference Polynomial Computer Algebra ’2024’ (PCA’2024)</span>, <span class="pub-meta">Saint-Petersburg, Russia • 2024</span>
+  </div>
 
-3. Vladislav Shubin and Nikita Gogin. [“Binomial Coefficients as Functions of their Denominator; Another Primality Criteria for Natural Integers”](https://pca-pdmi.ru/2024/files/48/prime.pdf). In: *International Conference Polynomial Computer Algebra* ’2024’ (PCA’2024). Saint-Petersburg, Russia, 2024. 
+  <div class="pub-item">
+    <span class="pub-number">4.</span>
+    <span class="pub-authors">Vladislav Shubin and Nikita Gogin.</span> 
+    <a class="pub-link pub-title" href="https://pca-pdmi.ru/2023/files/17/Gogin-Shubin-2023.pdf" target="_blank">“Bernstein Polynomials and MacWilliams transform”</a>. 
+    <span class="pub-venue">International Conference Polynomial Computer Algebra ’2023’ (PCA’2023)</span>, <span class="pub-meta">Saint-Petersburg, Russia • 2023</span>
+  </div>
 
-4. Vladislav Shubin and Nikita Gogin. [“Prime Power Conjecture for Projective Planes”](https://pca.conf-pdmi.ru/2025/files/63/GoginShubin.pdf). In: *International Conference Polynomial Computer Algebra* ’2025’ (PCA’2025). Saint-Petersburg, Russia, 2025. 
+  <div class="pub-item">
+    <span class="pub-number">5.</span>
+    <span class="pub-authors">Vladislav Shubin.</span> 
+    <a class="pub-link pub-title" href="" target="_blank">“Study of ϕ-radical numbers”</a>. 
+    <span class="pub-venue">73rd Scientific Conference of Sudents and Young Scientists</span>, <span class="pub-meta">Petrozavodsk, Russia • 2021</span>
+  </div>
+{{< /raw_html >}}
 
-5. Vladislav Shubin and Ivan Ushakov. ["MacWilliams Transform with Binomial Weights"](https://pca.conf-pdmi.ru/2026/files/53/PCA2026_Abstract.pdf). Polynomial Computer Algebra, 2026.
+### OEIS Contributions
 
-### OEIS contributions 
+### Authored Sequences
 
-I authored the following OEIS sequences: 
-[A355045](https://oeis.org/A355045), [A355059](https://oeis.org/A355059), [A337775](https://oeis.org/A337775), [A337776](https://oeis.org/A337776).
+* **[A355045](https://oeis.org/A355045)** — Least multiple \\(k\\) of \\(p_n\\) such that the Dedekind \\(\psi(k)\\) is a power of \\(\text{rad}(k)\\).
+* **[A355059](https://oeis.org/A355059)** — The exponents \\(m\\) satisfying \\(\psi(k) = \text{rad}(k)^m\\) for the terms in A355045.
+* **[A337775](https://oeis.org/A337775)** — Least multiple \\(k\\) of \\(p_n\\) such that the Euler \\(\phi(k)\\) is a power of \\(\text{rad}(k)\\).
+* **[A337776](https://oeis.org/A337776)** — The exponents \\(m\\) satisfying \\(\phi(k) = \text{rad}(k)^m\\) for the terms in A337775.
 
-and also contributed to:
-[A000108](https://oeis.org/A000108)
+### Editorial Contributions
+
+* **[A000108](https://oeis.org/A000108)** (Catalan Numbers) — Proved an identity linking terms to a specific index of Krawtchouk polynomials: \\(a(n) = \mathcal{K}^{(2n+1, n, 1)}\\).
