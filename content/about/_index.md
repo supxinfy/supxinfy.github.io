@@ -40,7 +40,117 @@ This suggests that topology change in quantum graphs has observable geometric ef
 ### Coding Theory and Krawtchouk Polynomials
 
 During my Bachelor's studies, I worked under supervision of [Nikita Gogin](https://www.mathnet.ru/php/person.phtml?option_lang=eng&personid=45587) on Krawtchouk matrices which were used in several interesting applications.
-{{<img caption="Krawtchouk matrix of order 321 modulo 32" alt="Krawtchouk matrix of order 321 modulo 32" class="main__image" src="km-o321m23Gogin.png">}}
+{{<img caption="Krawtchouk matrix of order 321 modulo 23" alt="Krawtchouk matrix of order 321 modulo 32" class="main__image" src="km-o321m23Gogin.png">}}
+
+#### Live Preview of Krawtchouk Matrices:
+
+{{< raw_html >}}
+
+<button id="toggle-viewer-btn" class="matrix-btn toggle-btn" onclick="toggleViewer()">Show Preview</button>
+
+<div id="matrix-viewer-content" class="matrix-viewer-container" style="display: none;">
+    <div class="controls">
+        <div class="control-group">
+            <label>Select Modulo:</label>
+            <button class="matrix-btn active" data-mod="23" data-max="252" onclick="setModulo(23, this)">Mod 23</button>
+            <button class="matrix-btn" data-mod="19" data-max="208" onclick="setModulo(19, this)">Mod 19</button>
+            <button class="matrix-btn" data-mod="7" data-max="76" onclick="setModulo(7, this)">Mod 7</button>
+        </div>
+
+<div class="control-group">
+            <label>Order: <span id="order-val" style="display:inline-block; min-width: 3ch; text-align: right;">1</span></label>
+            <button class="matrix-btn"
+                onmousedown="startStep(-1)" onmouseup="stopStep()" onmouseleave="stopStep()"
+                ontouchstart="startStep(-1)" ontouchend="stopStep()">−</button>
+            <input type="range" id="order-slider" min="1" max="252" step="1" value="1" oninput="setOrder(this.value)">
+            <button class="matrix-btn"
+                onmousedown="startStep(1)" onmouseup="stopStep()" onmouseleave="stopStep()"
+                ontouchstart="startStep(1)" ontouchend="stopStep()">+</button>
+        </div>
+    </div>
+
+<div class="display-panel">
+        <div class="image-frame">
+            <img id="matrix-display" src="preview/km-o321m23Gogin.png" alt="Krawtchouk Matrix Viewer">
+        </div>
+        <div class="info" id="matrix-info">km-o321m31.png</div>
+    </div>
+</div>
+
+<style>
+</style>
+
+<script>
+    let currentModulo = 23;
+    let currentOrder = 1;
+    let debounceTimer = null;
+    let stepInterval = null;
+
+    function toggleViewer() {
+        const viewer = document.getElementById('matrix-viewer-content');
+        const btn = document.getElementById('toggle-viewer-btn');
+        if (viewer.style.display === "none") {
+            viewer.style.display = "block";
+            btn.innerText = "Hide Preview";
+            btn.classList.add('active');
+        } else {
+            viewer.style.display = "none";
+            btn.innerText = "Show Preview";
+            btn.classList.remove('active');
+        }
+    }
+
+    function updateMatrixImage() {
+        const filename = `preview/km-o${currentOrder}m${currentModulo}Gogin.png`;
+        document.getElementById('matrix-display').src = filename;
+        document.getElementById('matrix-info').innerText = filename.replace('preview/', '');
+    }
+
+    function setModulo(mod, btn) {
+        currentModulo = mod;
+        btn.parentNode.querySelectorAll('.matrix-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const maxLimit = parseInt(btn.getAttribute('data-max'), 10);
+        const slider = document.getElementById('order-slider');
+        slider.max = maxLimit;
+        if (currentOrder > maxLimit) {
+            currentOrder = maxLimit;
+            slider.value = maxLimit;
+            document.getElementById('order-val').innerText = maxLimit;
+        }
+        updateMatrixImage();
+    }
+
+    function setOrder(val) {
+        currentOrder = parseInt(val);
+        document.getElementById('order-val').innerText = currentOrder;
+        clearTimeout(debounceTimer);
+        debounceTimer = setTimeout(updateMatrixImage, 30);
+    }
+
+    function stepOrder(delta) {
+        const slider = document.getElementById('order-slider');
+        const newVal = Math.min(Math.max(1, parseInt(currentOrder) + delta), parseInt(slider.max));
+        slider.value = newVal;
+        setOrder(newVal);
+    }
+
+    function startStep(delta) {
+        stopStep();
+        stepOrder(delta);
+        stepInterval = setInterval(() => stepOrder(delta), 80);
+    }
+
+    function stopStep() {
+        clearInterval(stepInterval);
+        stepInterval = null;
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+        updateMatrixImage();
+    });
+</script>
+{{< /raw_html >}}
 
 One of the applications was the derivation of new formulae for Bernstein and Chebyshev polynomials. Also we developed an algorithm for computing Bernstein polynomials.
 

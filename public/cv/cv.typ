@@ -310,7 +310,11 @@ _*Teacher Assistant*_ #h(1fr) _2021-2023_
 - *Activities:* Private teaching on Programming in C/C++ and Python.
 
 ]
-#section(title: "Publications")[
+#section(title: "Preprints")[
+    1. Pavel Kurasov, Vladislav Shubin, Axel Tibbling. "Berry's phase under topology change". doi: #link("https://doi.org/10.48550/arXiv.2605.10798")
+]
+
+#section(title: "Conference Publications")[
 1. Vladislav Shubin. "Investigation of $phi$-radical numbers". In: 73rd Scientific Conference of Students and Young Scientist. Petrozavodsk, 2021. 
 
 2. Vladislav Shubin and Nikita Gogin. #link("https://pca-pdmi.ru/2023/files/17/Gogin-Shubin-2023.pdf")["Bernstein Polynomials and MacWilliams transform"]. In: Polynomial Computer Algebra, 2023. 
@@ -318,6 +322,8 @@ _*Teacher Assistant*_ #h(1fr) _2021-2023_
 3. Vladislav Shubin and Nikita Gogin. #link("https://pca-pdmi.ru/2024/files/48/prime.pdf")["Binomial Coefficients as Functions of their Denominator; Another Primality Criteria for Natural Integers"]. Polynomial Computer Algebra, 2024. 
 
 4. Vladislav Shubin and Nikita Gogin. #link("https://pca.conf-pdmi.ru/2025/files/63/GoginShubin.pdf")["Prime Power Conjecture for Projective Planes"]. Polynomial Computer Algebra, 2025. 
+
+5. Vladislav Shubin and Ivan Ushakov. #link("https://pca.conf-pdmi.ru/2026/files/53/PCA2026_Abstract.pdf")["MacWilliams Transform with Binomial Weights"]. Polynomial Computer Algebra, 2026.
 
 === #link("https://oeis.org")[OEIS] contributions 
 
@@ -334,7 +340,7 @@ I authored the following #link("https://oeis.org")[OEIS] sequences:
     - Lean
     - Python
     - C/C++ & Rust
-- *Languages*: English (B2), Russian (native)
+- *Languages*: English (C1), Russian (native)
 - *Interests*: 
     - Classical guitar (7-year formal training)
     - Formal philosophy (coursework at Higher School of Economics)

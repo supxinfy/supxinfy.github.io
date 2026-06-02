@@ -149,3 +149,150 @@ footer {
 .main__image img {
     width: clamp(116px, 100%, 462px);
 }
+
+.matrix-btn.toggle-btn {
+    background: none;
+    border: 1px solid hsl(0, 0%, 82%);
+    border-radius: 6px;
+    padding: 6px 14px;
+    font-family: 'DM Mono', monospace;
+    font-size: 13px;
+    color: hsl(10, 10%, 30%);
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: border-color 0.15s, color 0.15s, background 0.15s;
+    margin: 15px 0;
+}
+
+.matrix-btn.toggle-btn:hover {
+    border-color: hsl(229, 90%, 48%);
+    color: hsl(229, 90%, 48%);
+}
+
+.matrix-btn.toggle-btn.active {
+    background: hsl(0, 70%, 50%);
+    border-color: hsl(0, 70%, 50%);
+    color: white;
+}
+
+.matrix-btn.toggle-btn.active:hover {
+    background: hsl(0, 70%, 44%);
+    border-color: hsl(0, 70%, 44%);
+    color: white;
+}
+
+/* Viewer container */
+.matrix-viewer-container {
+    border: 1px solid hsl(0, 0%, 82%);
+    border-radius: 6px;
+    margin: 12px 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+/* Controls area */
+.matrix-viewer-container .controls {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 14px;
+    border-bottom: 1px solid hsl(0, 0%, 82%);
+    flex-wrap: nowrap;
+    background: none;
+    height: 44px;
+}
+
+.matrix-viewer-container .control-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 0;
+}
+
+.matrix-viewer-container label {
+    font-size: 11px;
+    color: hsl(0, 0%, 60%);
+    white-space: nowrap;
+    display: inline;
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+.matrix-viewer-container input[type="range"] {
+    flex: 1;
+    min-width: 120px;
+    height: 2px;
+    accent-color: hsl(10, 10%, 10%);
+    cursor: pointer;
+}
+
+/* Mod buttons */
+.matrix-btn {
+    background: none;
+    border: 1px solid hsl(0, 0%, 82%);
+    border-radius: 20px;
+    padding: 3px 10px;
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+    color: hsl(10, 10%, 10%);
+    cursor: pointer;
+    transition: background 0.12s, border-color 0.12s, color 0.12s;
+}
+
+.matrix-btn.active {
+    background: hsl(10, 10%, 12%);
+    color: hsl(0, 0%, 108%);
+    border-color: hsl(10, 10%, 10%);
+}
+
+.matrix-btn:not(.active):hover {
+    border-color: hsl(229, 90%, 48%);
+    color: hsl(229, 90%, 48%);
+}
+
+/* Image frame */
+.matrix-viewer-container .display-panel {
+    background: none;
+    padding: 0;
+    border-radius: 0;
+    text-align: left;
+}
+
+.image-frame {
+    width: 100%;
+    background: hsl(0, 0%, 10%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    line-height: 0;
+    height: 60vh;
+    min-height: 200px;
+}
+
+.image-frame img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    display: block;
+    image-rendering: pixelated;
+}
+
+/* Filename label */
+.matrix-viewer-container .info {
+    padding: 5px 14px;
+    border-top: 1px solid hsl(0, 0%, 82%);
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: hsl(0, 0%, 60%);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    margin: 0;
+    font-weight: normal;
+}
